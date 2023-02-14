@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@1,300&family=Shrikhand&family=Silkscreen&display=swap');
+
+*{
+    font-family: cursive;
+    
+}
+body{
+    background: url(laptop-gb0be3b140_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#nav{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    bottom: unset;
+    bottom: unset;
+    word-spacing: 2em;
+}
+.a1{
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none; 
+    background-color: orange;
+}
+.a2{
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none; 
+    background-color: orange;
+}
+.a3{
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none; 
+    background-color: orange;
+}
+.a4{
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none; 
+    background-color: orange;
+}
+#form{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background: none;
+}
+.img{
+    padding: 15px;
+}
+.p{
+    text-align: center;
+    padding: 20px;
+}
+#login{
+    font-size: 20px;
+    color: blue;
+    background-color: orangered;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}

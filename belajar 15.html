@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Halaman Login Eka Sukma</title>
+</head>
+<body>
+    <nav id="nav">
+        <a class="a1" href="https://www.youtube.com/channel/UC4zDOs5TYn3e6D8TRT82QUw" target="_blank">Youtube</a>
+        <a class="a2" href="https://wa.me/083114176615" target="_blank">Whatsapp</a>
+        <a class="a3" href="https://www.facebook.com/profile.php?id=100085106321901" target="_blank">Facebook</a>
+        <a class="a4" href="https://www.instagram.com" target="_blank">Insagram</a>
+    </nav>
+
+    <hr/>
+
+    <header style="text-align: center;">
+        <img class="img" src="Proyek Baru 16 [06C3538] (1).png" width="240" height="240" alt="download">
+        <h1>I Putu Eka Sukma yoga</h1>
+        <p style="line-height: 20px;">Saya adalah siswa yang bersekolah di yang SMK Negeeri Bali Mandara Sedang belajar pemograman,<br> mari belajar bersama-sama !</p>
+    </header>
+    <h1 style="text-align: center;">Mari Bergabung</h1>
+    <hr>
+    <form action="https://formsubmit.co/esukmayoga@gmail.com" action="/index.html" id="form" method="post">
+        <p>Email</p>
+        <input style="background-color: transparent; border-radius: 3px;" type="email" name="email" placeholder="masukan email" id="input_email">
+        <p>Nama</p>
+        <input style="background-color: transparent; border-radius: 3px;" type="text" name="Nama" placeholder="masukan nama">
+        <p>No HP</p>
+        <input style="background-color: transparent; border-radius: 3px;" type="text" name="no_hp" placeholder="masukan no hp"><br><br>
+        <input id="login" type="submit" name="submit" value="Login">
+        <input type="hidden" name="_next" value="https://projack-ftth.i-putu-ekaputu2.repl.co">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+    <script>
+        var input_email = document.querySelector('#input_email')
+
+        $("#submit").submit(function (e)) {
+            e.preventDefoult();
+        }
+    </script>
+    <footer class="p">
+        <p> &copy; 2023 Sukma Yoga.</p>
+    </footer>
+    
+</body>
+</html>
